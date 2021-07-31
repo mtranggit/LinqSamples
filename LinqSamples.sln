@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction\Introduction.csproj", "{B11FE9D5-D141-4D1D-A5E9-8CAFE7F8397E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction", "Introduction\Introduction.csproj", "{B11FE9D5-D141-4D1D-A5E9-8CAFE7F8397E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features", "Features\Features.csproj", "{DBDB1400-4447-417A-9C39-4F296479E31A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Features", "Features\Features.csproj", "{DBDB1400-4447-417A-9C39-4F296479E31A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "Queries\Queries.csproj", "{A758CF2A-111D-4FB3-8AC7-A7725C3D5CC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DBDB1400-4447-417A-9C39-4F296479E31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBDB1400-4447-417A-9C39-4F296479E31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBDB1400-4447-417A-9C39-4F296479E31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A758CF2A-111D-4FB3-8AC7-A7725C3D5CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A758CF2A-111D-4FB3-8AC7-A7725C3D5CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A758CF2A-111D-4FB3-8AC7-A7725C3D5CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A758CF2A-111D-4FB3-8AC7-A7725C3D5CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
