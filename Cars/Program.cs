@@ -275,7 +275,7 @@ namespace Cars
             var ex = (XNamespace)"http://pluralsight.com/cars/2016/ex";
             var query =
                     // more explicit way
-                    from element in document.Element(ns + "Cars")?.Elements(ex + "Car") ?? Enumerable.Empty( )
+                    from element in document.Element(ns + "Cars")?.Elements(ex + "Car") ?? Enumerable.Empty<XElement>( )
                     //from element in document.Descendants("Car")
                     where element.Attribute("Manufacturer")?.Value == "BMW"
                     select element.Attribute("Name").Value;
